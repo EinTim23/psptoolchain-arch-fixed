@@ -1,0 +1,10 @@
+targ-map.o: targ-map.c config.h \
+ ../../../sim/mips/../..//include/ansidecl.h \
+ ../../../sim/mips/../..//include/gdb/callback.h ../../bfd/bfd.h \
+ ../../../sim/mips/../..//include/symcat.h targ-vals.h
+config.h:
+../../../sim/mips/../..//include/ansidecl.h:
+../../../sim/mips/../..//include/gdb/callback.h:
+../../bfd/bfd.h:
+../../../sim/mips/../..//include/symcat.h:
+targ-vals.h:

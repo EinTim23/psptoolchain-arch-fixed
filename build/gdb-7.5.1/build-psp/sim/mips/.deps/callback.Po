@@ -1,0 +1,15 @@
+callback.o: ../../../sim/mips/../common/callback.c ../common/cconfig.h \
+ config.h ../../../sim/mips/../..//include/ansidecl.h \
+ ../../../sim/mips/../..//include/gdb/callback.h ../../bfd/bfd.h \
+ ../../../sim/mips/../..//include/symcat.h targ-vals.h \
+ ../../../sim/mips/../..//include/libiberty.h \
+ ../../../sim/mips/../..//include/ansidecl.h
+../common/cconfig.h:
+config.h:
+../../../sim/mips/../..//include/ansidecl.h:
+../../../sim/mips/../..//include/gdb/callback.h:
+../../bfd/bfd.h:
+../../../sim/mips/../..//include/symcat.h:
+targ-vals.h:
+../../../sim/mips/../..//include/libiberty.h:
+../../../sim/mips/../..//include/ansidecl.h:

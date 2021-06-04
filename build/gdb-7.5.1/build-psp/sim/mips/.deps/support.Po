@@ -1,0 +1,83 @@
+support.o: support.c ../../../sim/mips/sim-main.h \
+ ../../../sim/mips/../common/sim-basics.h ../common/cconfig.h tconfig.h \
+ ../../../sim/mips/../..//include/ansidecl.h \
+ ../../../sim/mips/../..//include/gdb/callback.h ../../bfd/bfd.h \
+ ../../../sim/mips/../..//include/symcat.h \
+ ../../../sim/mips/../..//include/gdb/remote-sim.h \
+ ../../../sim/mips/../common/sim-config.h \
+ ../../../sim/mips/../common/sim-inline.h \
+ ../../../sim/mips/../common/sim-types.h \
+ ../../../sim/mips/../common/sim-bits.h \
+ ../../../sim/mips/../common/sim-bits.c \
+ ../../../sim/mips/../common/sim-basics.h \
+ ../../../sim/mips/../common/sim-assert.h \
+ ../../../sim/mips/../common/sim-io.h \
+ ../../../sim/mips/../common/sim-n-bits.h \
+ ../../../sim/mips/../common/sim-endian.h \
+ ../../../sim/mips/../common/sim-endian.c \
+ ../../../sim/mips/../common/sim-n-endian.h \
+ ../../../sim/mips/../common/sim-signal.h \
+ ../../../sim/mips/../..//include/gdb/signals.h \
+ ../../../sim/mips/../..//include/gdb/signals.def \
+ ../../../sim/mips/../common/sim-arange.h \
+ ../../../sim/mips/../common/sim-arange.c \
+ ../../../sim/mips/../..//include/libiberty.h \
+ ../../../sim/mips/../..//include/ansidecl.h \
+ ../../../sim/mips/../common/sim-utils.h \
+ ../../../sim/mips/../common/sim-base.h \
+ ../../../sim/mips/../common/sim-module.h \
+ ../../../sim/mips/../common/sim-trace.h \
+ ../../../sim/mips/../common/sim-core.h \
+ ../../../sim/mips/../common/sim-events.h \
+ ../../../sim/mips/../common/sim-profile.h \
+ ../../../sim/mips/../common/sim-engine.h \
+ ../../../sim/mips/../common/sim-watch.h \
+ ../../../sim/mips/../common/sim-memopt.h \
+ ../../../sim/mips/../common/sim-cpu.h \
+ ../../../sim/mips/../common/sim-fpu.h ../../../sim/mips/cp1.h \
+ ../../../sim/mips/../common/sim-alu.h idecode.h itable.h support.h
+../../../sim/mips/sim-main.h:
+../../../sim/mips/../common/sim-basics.h:
+../common/cconfig.h:
+tconfig.h:
+../../../sim/mips/../..//include/ansidecl.h:
+../../../sim/mips/../..//include/gdb/callback.h:
+../../bfd/bfd.h:
+../../../sim/mips/../..//include/symcat.h:
+../../../sim/mips/../..//include/gdb/remote-sim.h:
+../../../sim/mips/../common/sim-config.h:
+../../../sim/mips/../common/sim-inline.h:
+../../../sim/mips/../common/sim-types.h:
+../../../sim/mips/../common/sim-bits.h:
+../../../sim/mips/../common/sim-bits.c:
+../../../sim/mips/../common/sim-basics.h:
+../../../sim/mips/../common/sim-assert.h:
+../../../sim/mips/../common/sim-io.h:
+../../../sim/mips/../common/sim-n-bits.h:
+../../../sim/mips/../common/sim-endian.h:
+../../../sim/mips/../common/sim-endian.c:
+../../../sim/mips/../common/sim-n-endian.h:
+../../../sim/mips/../common/sim-signal.h:
+../../../sim/mips/../..//include/gdb/signals.h:
+../../../sim/mips/../..//include/gdb/signals.def:
+../../../sim/mips/../common/sim-arange.h:
+../../../sim/mips/../common/sim-arange.c:
+../../../sim/mips/../..//include/libiberty.h:
+../../../sim/mips/../..//include/ansidecl.h:
+../../../sim/mips/../common/sim-utils.h:
+../../../sim/mips/../common/sim-base.h:
+../../../sim/mips/../common/sim-module.h:
+../../../sim/mips/../common/sim-trace.h:
+../../../sim/mips/../common/sim-core.h:
+../../../sim/mips/../common/sim-events.h:
+../../../sim/mips/../common/sim-profile.h:
+../../../sim/mips/../common/sim-engine.h:
+../../../sim/mips/../common/sim-watch.h:
+../../../sim/mips/../common/sim-memopt.h:
+../../../sim/mips/../common/sim-cpu.h:
+../../../sim/mips/../common/sim-fpu.h:
+../../../sim/mips/cp1.h:
+../../../sim/mips/../common/sim-alu.h:
+idecode.h:
+itable.h:
+support.h:

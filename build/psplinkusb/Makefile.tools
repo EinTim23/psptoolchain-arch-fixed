@@ -1,0 +1,23 @@
+
+.PHONY: all release clean
+
+all:
+	$(MAKE) -C tools/debugmenu all
+	$(MAKE) -C tools/remotejoy all
+	$(MAKE) -C tools/scrkprintf all
+	$(MAKE) -C tools/siokprintf all
+	$(MAKE) -C tools/usbkprintf all
+
+release: all
+	cp tools/debugmenu/debugmenu.prx release/psplink
+	cp tools/remotejoy/remotejoy.prx release/psplink
+	cp tools/scrkprintf/scrkprintf.prx release/psplink
+	cp tools/siokprintf/siokprintf.prx release/psplink
+	cp tools/usbkprintf/usbkprintf.prx release/psplink
+
+clean:
+	$(MAKE) -C tools/debugmenu clean
+	$(MAKE) -C tools/remotejoy clean
+	$(MAKE) -C tools/scrkprintf clean
+	$(MAKE) -C tools/siokprintf clean
+	$(MAKE) -C tools/usbkprintf clean

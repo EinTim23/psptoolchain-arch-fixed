@@ -1,0 +1,2 @@
+version.o: version.c ../../../sim/mips/../common/version.h
+../../../sim/mips/../common/version.h:
